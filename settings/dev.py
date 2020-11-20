@@ -1,6 +1,6 @@
 import os
 import json
-from .common import *
+from .base import *
 
 ##################
 # PROJECT CONFIG #

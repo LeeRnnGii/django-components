@@ -1,5 +1,5 @@
 import os
-from .common import *
+from .base import *
 
 try:
     with open(CONFIG_PATH) as config:
