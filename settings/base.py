@@ -201,9 +201,6 @@ SECURE_PROXY_SSL_HEADER = None
 DEFAULT_HASHING_ALGORITHM = 'sha256'
 
 ROOT_URLCONF = 'Project.urls'
-############################################################################################################
-
-
 ##############
 # MIDDLEWARE #
 ##############
