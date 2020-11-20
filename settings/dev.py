@@ -26,7 +26,7 @@ SECRET_KEY = CONFIG['SECRET_KEY']
 TIME_ZONE = 'Asia/Shanghai'
 LANGUAGE_CODE = 'zh-Hans'
 
-INSTALLED_APPS.extend(['users', 'cars'])
+INSTALLED_APPS.extend([])
 
 DATABASES = {
     'default': {
@@ -104,8 +104,8 @@ DATABASE_ROUTERS = []
 ##################
 # OTHER SETTINGS #
 ##################
-LOGIN_REDIRECT_URL = 'cars'
-LOGIN_URL = 'login'
+# LOGIN_REDIRECT_URL = 'cars'
+# LOGIN_URL = 'login'
 
 # try:
 #     import crispy_forms
